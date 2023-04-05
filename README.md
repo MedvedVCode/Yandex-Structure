@@ -46,3 +46,4 @@
 ![yandex_after.png](yandex_after.png)
 
 ## Структура сайта в блоках
+![structure.png](structure.png)
