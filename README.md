@@ -1,6 +1,6 @@
 # Разбор сайта yandex.ru
 
-## Cайт работает на протоколе hhtps
+## Cайт работает на протоколе **https**
 ## Структура сайта
 
 1. Строка поиска, header
@@ -29,7 +29,20 @@
     ```html
     <article class="card-wrapper _is-desktop _is-desktop-redesign _theme_white _with-overflow-hidden channels-list-sidebar__container-1r channels-list-sidebar__container_relative-18 channels-list-sidebar__container_sticky-1b">
     ```
-5.  Main. Список каналов
+5.  Main. Статья
     ```html
-    <article class="card-wrapper _is-desktop _is-desktop-redesign _theme_white _with-overflow-hidden channels-list-sidebar__container-1r channels-list-sidebar__container_relative-18 channels-list-sidebar__container_sticky-1b">
+    <div class="feed__row _items-count_1" id="zen-row-1">
     ```
+6.  Main. Статья
+    ```html
+    <div class="feed__row _items-count_1" id="zen-row-2">
+    ```
+ и т.д.
+
+## Изменения с помощью **devtools**
+Было:
+![yandex_before.png](yandex_before.png)
+Стало:
+![yandex_after.png](yandex_after.png)
+
+## Структура сайта в блоках
