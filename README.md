@@ -41,8 +41,11 @@
 
 ## Изменения с помощью **devtools**
 Было:
+
 ![yandex_before.png](yandex_before.png)
+
 Стало:
+
 ![yandex_after.png](yandex_after.png)
 
 ## Структура сайта в блоках
